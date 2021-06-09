@@ -175,7 +175,7 @@ if [ -z $python_path ] ; then
     exit 1
 else
     echo "Installing python requirements..."
-    pip install -r ../requirements.txt
+    #pip install -r ../requirements.txt
     status=$?
     if [ ! $status -eq 0 ]; then
         echo "Installing python requirements failed!"
