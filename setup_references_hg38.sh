@@ -6,7 +6,7 @@ mkdir -p ref
 cd ref
 
 gmap_refdir=$PWD
-commands="genome_fasta trans_fasta tx_annotation ann_info tx2gene gmap_refdir gmap_genome"
+commands="genome_fasta tx_annotation trans_fasta ann_info tx2gene gmap_refdir gmap_genome"
 
 function genome_fasta_setup {
     file=hg38.fa
