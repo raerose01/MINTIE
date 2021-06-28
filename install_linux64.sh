@@ -11,7 +11,8 @@ mkdir -p tools/bin
 cd tools
 
 #a list of which programs need to be installed
-commands="bpipe fastuniq dedupe trimmomatic fasta_formatter samtools bedtools soapdenovotrans salmon hisat gmap"
+#commands="bpipe fastuniq dedupe trimmomatic fasta_formatter samtools bedtools soapdenovotrans salmon hisat gmap"
+commands="bpipe fastuniq dedupe trimmomatic fasta_formatter samtools bedtools jellyfish bowtie2 Trinity salmon hisat gmap"
 
 #installation methods
 function bpipe_install {
